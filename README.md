@@ -5,10 +5,8 @@ Understands English and Chinese.
 
 ## Showcase
 
-**Voice demo**: _add video_
+**Voice demo**: [ZhuangZi voice demo](https://drive.google.com/file/d/1oDqfrceeXqhLUuJXzpWgH78rpBDGGE3v/view?usp=sharing)
 
-<!-- Embed: drag a video file in on github.com, or
-[![ZhuangZi voice demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID) -->
 
 ## Running
 
