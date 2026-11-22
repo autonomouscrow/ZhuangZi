@@ -5,7 +5,7 @@ Understands English and Chinese.
 
 ## Showcase
 
-**Voice demo**: ![ZhuangZi voice demo](https://drive.google.com/file/d/1oDqfrceeXqhLUuJXzpWgH78rpBDGGE3v/view?usp=sharing)
+**Voice demo**: [ZhuangZi voice demo](https://drive.google.com/file/d/1oDqfrceeXqhLUuJXzpWgH78rpBDGGE3v/view?usp=sharing)
 
 
 ## Running
