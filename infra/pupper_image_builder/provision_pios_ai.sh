@@ -101,10 +101,8 @@ source /home/$DEFAULT_USER/.cargo/env
 rustup target add aarch64-unknown-linux-gnu
 
 
-############################### Install LLM deps ###########################
-# Note: livekit 1.0.16 is incompatible with RPi OS due to glibc>=2.38 requirement
+############################### Install Python deps ###########################
 rm -f /usr/lib/python3.*/EXTERNALLY-MANAGED
-pip install "livekit==1.0.13" "livekit-agents[cartesia,google,openai,deepgram,silero,turn-detector]==1.2.15"
 pip install "python-dotenv"
 pip install pandas
 
@@ -141,7 +139,6 @@ cargo build --release --target aarch64-unknown-linux-gnu
 
 # Install systemctl services
 bash /home/$DEFAULT_USER/pupperv3-monorepo/pupper-rs/install_service.sh
-bash /home/$DEFAULT_USER/pupperv3-monorepo/ai/llm-ui/agent-starter-python/install_service.sh
 sudo systemctl enable systemd-time-wait-sync.service
 
 if [ "$GITHUB_TOKEN_CONFIGURED" = true ]; then
